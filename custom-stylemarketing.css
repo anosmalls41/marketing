@@ -1,24 +1,60 @@
-/* custom-style.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+  background-color: #f2f5fa;
+  color: #000;
   padding: 20px;
+  line-height: 1.6;
 }
 
-.button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
+h1, h2, h3 {
+  font-weight: bold;
 }
 
-.button:hover {
-  background-color: #0056b3;
+.highlight-yellow {
+  background-color: yellow;
+  font-weight: bold;
 }
+
+.section-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: yellow;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+.checklist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checklist li::before {
+  content: "☑ ";
+  color: green;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+  margin: 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid #ccc;
+}
+
+.separator {
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+
+.section-subtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #111;
+}
+
