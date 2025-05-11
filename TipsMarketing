@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f5fa;
+  color: #000;
+  padding: 20px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.highlight-yellow {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: yellow;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+.checklist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.checklist li::before {
+  content: "☑ ";
+  color: green;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+  margin: 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid #ccc;
+}
+
+.separator {
+  border-top: 2px solid #000;
+  margin: 30px 0;
+}
+
+.section-subtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #111;
+}
